@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*-----------------------------------*/
+body {
+  background-color: #f8f9fa;
+}
+
+header {
+  font-family: "Roboto", sans-serif;
+  background-color: #f6fff8;
+}
+header div h1 {
+  font-size: 40px;
+  color: #1b4332;
+  font-weight: bold;
+}
+header div nav li {
+  list-style: none;
+}
+header div nav li a {
+  text-decoration: none;
+  color: #1b4332;
+  font-weight: bold;
+}
+
+main section {
+  padding-bottom: 40px;
+}
+main section:hover h2 {
+  font-size: 40px;
+}
+main h2 {
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #95d5b2;
+}
+main .btn {
+  padding-top: 40px;
+  font-size: 25px;
+  color: #52b788;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  font-weight: bold;
+}
+main .btn a {
+  display: block;
+  padding: 5px 10px;
+  background-color: #d8f3dc;
+  border-radius: 5px;
+  text-decoration: none;
+}
+main .btn a:hover {
+  background-color: #b7e4c7;
+  padding: 8px 13px;
+}
+
+footer {
+  background-color: #343a40;
+}
+footer .logos .logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+footer .logos .logo a {
+  padding: 20px;
+  text-decoration: none;
+}
+footer .logos .logo a .log {
+  color: white;
+  /* Set icon color to white */
+  fill: white;
+  /* Set fill color to white */
+  stroke: none;
+}
+
+@media (max-width: 768px) {
+  header div div {
+    font-size: medium;
+  }
+  header div nav {
+    font-size: 10px;
+  }
+  main div h2 {
+    font-size: 25px;
+  }
+  main div h2:hover {
+    font-size: 30px;
+  }
+  main div p {
+    font-size: smaller;
+  }
+  main div img {
+    max-width: 380px;
+    max-height: auto;
+  }
+}
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  box-shadow: 2px 0px 30px rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+main .publi img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+main section div div {
+  width: 80%;
+}
+main section div div img {
+  border-radius: 20px;
+}
+main section div div h2 {
+  padding-bottom: 40px;
+  max-width: 80%;
+}
+main section div div p {
+  font-size: 20px;
+  line-height: 36px;
+  color: #757575;
+  text-align: justify;
+  max-width: 80%;
+  padding-left: 30px;
+}
+
+section .conceptos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+section .conceptos .concepto {
+  padding-top: 80px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section .conceptos .concepto img {
+  width: 300px;
+  height: 350px;
+}
+section div .alumnos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+section div .alumnos div {
+  padding-top: 40px;
+  padding-left: 10px;
+}
+section div .alumnos div a {
+  padding-top: 30px;
+}
+section div .alumnos div a img {
+  width: 400px;
+  height: 450px;
+}
+
+/*# sourceMappingURL=styles.css.map */
