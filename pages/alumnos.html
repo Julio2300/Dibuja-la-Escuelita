@@ -7,27 +7,53 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../estilos/styles.css">
-    <title>Dibuja la escuelita</title>
+    <title>Dibuja la escuelita, Apasionados del arte</title>
 </head>
 
 <body>
-    <header>
+    <header class="container-fluid py-4">
         <div class="grid text-center">
             <div class="col-xxl-12">
                 <h1>Dibuja La Escuelita</h1>
+                <div class="mobile">
+                    <nav class="navbar fixed-top">
+                        <div class="container-fluid">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                                aria-labelledby="offcanvasNavbarLabel">
+                                <div class="offcanvas-body">
+                                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                        <li class="nav-item my-2">
+                                            <a class="nav-link fw-medium" aria-current="page" href="../index.html">Home</a>
+                                        </li>
+                                        <li class="nav-item my-2">
+                                            <a class="nav-link fw-medium" href="./cursos.html">Cursos</a>
+                                        </li>
+                                        <li class="nav-item my-2">
+                                            <a class="nav-link fw-medium" href="./quienesSomos.html">¿Quiénes
+                                                somos?</a>
+                                        </li>
+                                        <li class="nav-item my-2">
+                                            <a class="nav-link fw-medium" href="#">Nuestros
+                                                alumnos</a>
+                                        </li>
+                                        <li class="nav-item my-2">
+                                            <a class="nav-link fw-medium" href="./contacto.html">Contacto</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
             </div>
-            <nav class="col text-center">
-                <li class="row">
-                    <a class="col" href="../index.html">Home</a>
-                    <a class="col" href="./cursos.html">Cursos</a>
-                    <a class="col" href="./quienesSomos.html">Quiénes somos</a>
-                    <a class="col" href="#">Nuestros alumnos</a>
-                    <a class="col" href="./contacto.html">Contacto</a>
-                </li>
-            </nav>
         </div>
     </header>
-    <main class="index">
+    <main class="index container-fluid">
         <section class="text-center">
             <div class="row">
                 <div class="col mt-5">
